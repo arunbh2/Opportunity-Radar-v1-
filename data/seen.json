@@ -1,0 +1,261 @@
+{
+ "f03a6fa6eb9a0f78": {
+  "title": "Forgotten password?",
+  "url": "https://www.tenders.gov.au/RegisteredUser/ForgotPassword",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "526b8b132b5ba16e": {
+  "title": "New User Registration",
+  "url": "https://www.tenders.gov.au/RegisteredUser/Register",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "f535c9793b8adb58": {
+  "title": "Help and Information Site",
+  "url": "https://help.tenders.gov.au/getting-started-with-austender/business-opportunities/",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "325ab0d5ea6dcd81": {
+  "title": "Subscribe to Feeds",
+  "url": "https://www.tenders.gov.au/public_data/rss/rss.xml",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "03bf9e2348218891": {
+  "title": "NOTICE DHAPROC26/750",
+  "url": "https://www.tenders.gov.au/Atm/Show/70dad7f2-8e06-437e-9c0c-dbf1f44e746d",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "ea6fcfc3d89425ff": {
+  "title": "AUKUS PII WEB JUN 26",
+  "url": "https://www.tenders.gov.au/Atm/Show/840138b3-cadf-4348-aaf9-5547035e2cfa",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "f54f736d61c42449": {
+  "title": "Forgotten password?",
+  "url": "https://www.grants.gov.au/RegisteredUser/ForgotPassword",
+  "source": "GrantConnect - current grant opportunities",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "46ae29b0ea9a4122": {
+  "title": "New user registration",
+  "url": "https://www.grants.gov.au/RegisteredUser/Register",
+  "source": "GrantConnect - current grant opportunities",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "958ad9b0ce74bc09": {
+  "title": "Subscribe to Feeds",
+  "url": "https://www.grants.gov.au/public_data/rss/rss.xml",
+  "source": "GrantConnect - current grant opportunities",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "659a728e77953ffe": {
+  "title": "International Development",
+  "url": "https://thepalladiumgroup.com/news/topic/international-development",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "f01e536b77947bee": {
+  "title": "Why Youth Employment Support Matters for the Long Term",
+  "url": "https://thepalladiumgroup.com/news/Why-Youth-Employment-Support-Matters-for-the-Long-Term",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "a1880f4738b78150": {
+  "title": "From Ambition to Markets: What It Will Take to Deliver BII’s Market Building Strategy",
+  "url": "https://thepalladiumgroup.com/news/From-Ambition-to-Markets-What-It-Will-Take-to-Deliver-BII-Market-Building-Strategy",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "fae41de489549e41": {
+  "title": "Get Set UK Joins Palladium’s Employment and Community Services Team",
+  "url": "https://thepalladiumgroup.com/news/Get-Set-UK-Joins-Palladium-Employment-and-Community-Services-Team",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "d3e397d61da64071": {
+  "title": "Why the Future of Global Health Assistance is Digital",
+  "url": "https://thepalladiumgroup.com/news/Why-the-Future-of-Global-Health-Assistance-is-Digital",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "3cba55005f71767f": {
+  "title": "Connecting Farmers to the Future: Odisha’s Digital Transformation of Agriculture",
+  "url": "https://thepalladiumgroup.com/news/Connecting-Farmers-to-the-Future-Odisha-Digital-Transformation-of-Agriculture",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "60564789089e1e32": {
+  "title": "After the Donor Era: a New Model for Digital Transformation",
+  "url": "https://thepalladiumgroup.com/news/After-the-Donor-Era-a-New-Model-for-Digital-Transformation",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "db91a350f589f113": {
+  "title": "How the UK’s New VAWG Strategy Intersects with Modern Slavery and Migrant Women",
+  "url": "https://thepalladiumgroup.com/news/How-the-UKs-New-VAWG-Strategy-Intersects-with-Modern-Slavery-and-Migrant-Women",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "81b0a33865682460": {
+  "title": "Partnerships for Forests Supports Launch of Coffee Canopy Partnership to Accelerate Deforestation Free Supply Chains",
+  "url": "https://thepalladiumgroup.com/news/Partnerships-for-Forests-Supports-Launch-of-Coffee-Canopy-Partnership-to-Accelerate-Deforestation-Free-Supply-Chains",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "e8146b1be41a59e8": {
+  "title": "What Community Partners Tell Us About What Works in Employability",
+  "url": "https://thepalladiumgroup.com/news/What-Community-Partners-Tell-Us-About-What-Works-in-Employability",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "7cbb82ebb2e7f79d": {
+  "title": "Reducing Malaria while Driving Efficiencies and Treating the Whole Patient",
+  "url": "https://thepalladiumgroup.com/news/Reducing-Malaria-while-Driving-Efficiencies-and-Treating-the-Whole-Patient",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "d0511a6389d05309": {
+  "title": "On the Frontline of Homelessness Support in Alton and Bordon",
+  "url": "https://thepalladiumgroup.com/news/On-the-Frontline-of-Homelessness-Support-in-Alton-and-Bordon",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "7242c8cdf45a705d": {
+  "title": "Mining’s Acceleration Problem and Why Sustainability Cannot be an Afterthought",
+  "url": "https://thepalladiumgroup.com/news/Mining-Acceleration-Problem-and-Why-Sustainability-Cannot-be-an-Afterthought",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "499c51cc1d28ee0a": {
+  "title": "Beyond Survival: How One Employment Programme Transformed Refugee Futures in Southeast England Ludovica Picone",
+  "url": "https://thepalladiumgroup.com/news/Beyond-Survival-How-One-Employment-Programme-Transformed-Refugee-Futures-in-Southeast-England",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "600876d37c3dd8ef": {
+  "title": "Restoring Peatland, Building Partnerships: Lessons from the Cairngorms Tal Henderson",
+  "url": "https://thepalladiumgroup.com/news/Restoring-Peatland-Building-Partnerships-Lessons-from-the-Cairngorms",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "73db524a7f5d9d42": {
+  "title": "The Catalyst Special Report: The Year is 2025",
+  "url": "https://thepalladiumgroup.com/news/The-Catalyst-Special-Report-The-Year-is-2025",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "e8ccc35405fec9ad": {
+  "title": "The Catalyst Special Report: Global Health Security",
+  "url": "https://thepalladiumgroup.com/news/The-Catalyst-Special-Report-Global-Health-Security",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "aed22c856bca8cbd": {
+  "title": "Conflict Prevention, Stabilization & Transition",
+  "url": "https://dt-global.com/technical-area/conflict-prevention-stabilization-transition/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "9767022bef03e514": {
+  "title": "Economic Growth & Trade",
+  "url": "https://dt-global.com/technical-area/economic-growth-trade",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "538dae7778049cf2": {
+  "title": "Environment & Infrastructure",
+  "url": "https://dt-global.com/technical-area/environment-infrastructure/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "5ff56a68458d2f07": {
+  "title": "Cross Cutting Capabilities",
+  "url": "https://dt-global.com/technical-area/cross-cutting-capabilities/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "103539ad229b0fa2": {
+  "title": "Commercial Advisory",
+  "url": "https://dt-global.com/commercial-advisory/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "948e958aa72619fd": {
+  "title": "Insights & Research",
+  "url": "https://dt-global.com/technical-area/governance/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "c6dc83dd37989071": {
+  "title": "Locally Led Development Framework",
+  "url": "https://dt-global.com/wp-content/uploads/2024/09/DT-GLOBAL-LLD-FRAMEWORK.pdf",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "2adb4e1ea7d763dc": {
+  "title": "latest cohort of Emerging Leaders in International Development (ELID)",
+  "url": "https://dt-global.com/blog/third-cohort-elid/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "3a68d4d0942b6ea0": {
+  "title": "locally led development.",
+  "url": "https://dt-global.com/news/dt-global-launches-locally-led-development-framework/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "d6122e4d5b232601": {
+  "title": "https://www.tlaucon2025.com/",
+  "url": "https://www.tlaucon2025.com/",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ },
+ "ceb1d3887744d6a9": {
+  "title": "Innovate Reconciliation Action Plan July 2025 - July 2027",
+  "url": "https://dt-global.com/wp-content/uploads/2025/07/DLGlobal_InnovateRAP_FA_Accessible.pdf",
+  "source": "DT Global - news",
+  "first_seen": "2026-06-12",
+  "score": 0
+ }
+}
