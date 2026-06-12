@@ -1,0 +1,260 @@
+# =====================================================================
+# Opportunity Radar - configuration
+# Practical Action Asia | Australian development-funding intelligence
+# Edit this file freely. The script (radar.py) reads everything here.
+# =====================================================================
+
+settings:
+  # Minimum score for an item to appear in the digest at all
+  min_score: 2
+  # Score bands for the digest
+  high_threshold: 7
+  medium_threshold: 4
+  # How many days of digests to keep (digests are also in git history)
+  request_timeout: 25
+  user_agent: "Mozilla/5.0 (compatible; OpportunityRadar/1.0; +https://practicalaction.org)"
+
+# ---------------------------------------------------------------------
+# KEYWORDS AND WEIGHTS
+# Geography and theme matches are summed. An item generally needs at
+# least one geography hit unless the source is marked geo_optional
+# (DFAT-specific sources imply our region already).
+# ---------------------------------------------------------------------
+keywords:
+  geography:
+    weight: 3
+    terms:
+      - nepal
+      - bangladesh
+      - india
+      - sri lanka
+      - south asia
+      - southeast asia
+      - south east asia
+      - indo-pacific
+      - indo pacific
+      - mekong
+      - vietnam
+      - viet nam
+      - indonesia
+      - philippines
+      - asia-pacific
+      - asia pacific
+      - asean
+
+  themes:
+    weight: 2
+    terms:
+      - climate resilience
+      - climate adaptation
+      - climate change
+      - locally led adaptation
+      - disaster risk
+      - disaster resilience
+      - drr
+      - early warning
+      - anticipatory action
+      - risk finance
+      - parametric
+      - index insurance
+      - energy access
+      - renewable energy
+      - clean energy
+      - energy transition
+      - infrastructure governance
+      - resilient infrastructure
+      - agriculture
+      - food security
+      - water security
+      - wash
+      - gedsi
+      - gender equality
+      - disability inclusion
+      - livelihoods
+      - flood
+      - humanitarian
+
+  # Strong signals - these add extra weight on top of theme weight
+  boosters:
+    weight: 3
+    terms:
+      - managing contractor
+      - design and implement
+      - request for tender
+      - expression of interest
+      - approach to market
+      - grant opportunity
+      - call for proposals
+      - blended finance
+
+  # Items containing these are dropped (tune as noise appears)
+  exclude:
+    - defence
+    - passport
+    - visa processing
+    - office fit-out
+    - vehicle fleet
+    - fleet management
+
+# ---------------------------------------------------------------------
+# SOURCES
+# type: rss        -> parsed with feedparser
+# type: html       -> all links extracted, new ones diffed and scored
+# type: manual     -> not fetched; printed as a weekly checklist item
+# geo_optional: true -> theme hits alone can qualify the item
+# ---------------------------------------------------------------------
+sources:
+
+  - name: "AusTender - Approaches to Market (keyword search)"
+    type: html
+    geo_optional: true
+    url: "https://www.tenders.gov.au/Atm/Search?SearchFrom=AtmSearchForm&KeywordTypeSearch=AllWord&Keyword=climate%20resilience%20disaster"
+    notes: "Tune the Keyword= parameter. Add more entries of this source with different keywords if useful."
+
+  - name: "AusTender - ATM list (DFAT agency filter is set in URL)"
+    type: html
+    geo_optional: true
+    url: "https://www.tenders.gov.au/Atm"
+    notes: "Broad list; scoring filters the noise."
+
+  - name: "GrantConnect - current grant opportunities"
+    type: html
+    geo_optional: true
+    url: "https://www.grants.gov.au/Go/List"
+    notes: "Maitri, CAIR and other grants appear here first."
+
+  - name: "DFAT - Business notifications"
+    type: html
+    geo_optional: true
+    url: "https://www.dfat.gov.au/about-us/business-opportunities/business-notifications"
+    notes: "Earliest signal of upcoming procurements (SARIC2 appeared here)."
+
+  - name: "DFAT - Development Procurement Pipeline"
+    type: html
+    geo_optional: true
+    url: "https://www.dfat.gov.au/about-us/business-opportunities/Pages/business-opportunities"
+    notes: "If this page blocks the bot, it falls to the manual checklist automatically."
+
+  - name: "ACIAR - funding and opportunities"
+    type: html
+    url: "https://www.aciar.gov.au/opportunities"
+
+  - name: "Australian High Commission India - DAP"
+    type: html
+    geo_optional: true
+    url: "https://india.highcommission.gov.au/ndli/cooperation.html"
+
+  - name: "Australian Embassy Nepal - DAP"
+    type: html
+    geo_optional: true
+    url: "https://nepal.embassy.gov.au/kmdu/DAP.html"
+
+  - name: "Australian High Commission Bangladesh - DAP"
+    type: html
+    geo_optional: true
+    url: "https://bangladesh.highcommission.gov.au/daca/cooperation.html"
+
+  # --- Managing contractors: early intelligence, not formal RFPs ---
+
+  - name: "Adam Smith International - news/insights"
+    type: html
+    url: "https://adamsmithinternational.com/insights/"
+
+  - name: "Palladium - news"
+    type: html
+    url: "https://thepalladiumgroup.com/news"
+
+  - name: "DT Global - news"
+    type: html
+    url: "https://dt-global.com/news/"
+
+  - name: "Abt Global - insights"
+    type: html
+    url: "https://www.abtglobal.com/insights"
+
+  - name: "Tetra Tech International Development - news"
+    type: html
+    url: "https://intdev.tetratechasiapacific.com/category/news/"
+
+  # --- Manual checklist (login walls / bot-blocked) ---
+
+  - name: "AusConnect (sub-contracting portal - login required)"
+    type: manual
+    url: "https://ausconnect.dfat.gov.au"
+    notes: "Log in weekly. Search: climate, DRR, resilience, Nepal, Bangladesh, Mekong."
+
+  - name: "Devex funding search (account required)"
+    type: manual
+    url: "https://www.devex.com/funding"
+    notes: "Filter: Australia DFAT, South Asia + Southeast Asia."
+
+  - name: "ACFID member news and working groups"
+    type: manual
+    url: "https://acfid.asn.au"
+    notes: "Once Affiliate membership is active, check working-group circulars."
+
+# ---------------------------------------------------------------------
+# PLAYBOOK - pre-positioning intelligence
+# When an item matches a trigger term, the digest appends the likely
+# primes/partners and suggested actions. Refine weekly as you learn.
+# ---------------------------------------------------------------------
+playbook:
+
+  - trigger: ["disaster risk", "drr", "early warning", "anticipatory action", "flood", "disaster resilience"]
+    likely_actors: "DT Global (CRC Support Unit), Palladium, Tetra Tech, ASI; Australian Red Cross and Save the Children Australia on anticipatory action"
+    actions: >
+      Pull the Nepal flood EWS + Karnali parametric insurance capability note.
+      Check whether the opportunity sits under Climate Resilient Communities -
+      if yes, contact DT Global's CRC Support Unit early. Warm up the
+      ANCP-partner conversation (Oxfam Australia / Save the Children Australia).
+
+  - trigger: ["climate resilience", "climate adaptation", "locally led adaptation", "climate change"]
+    likely_actors: "DT Global, Abt, Palladium, Tetra Tech, ASI climate practice; WRI India and IWMI on water-climate"
+    actions: >
+      Map the opportunity against the Asia Flagship deck narrative. Prepare a
+      2-page locally-led-adaptation evidence note (Nepal/Bangladesh). Identify
+      which prime is incumbent in that country and request a capability call.
+
+  - trigger: ["risk finance", "parametric", "index insurance", "blended finance"]
+    likely_actors: "Convergence Blended Finance (Indo-Pacific NGO Accelerator), ADB/ACFP, Australian Development Investments fund managers"
+    actions: >
+      This is the differentiator - move fast. Refresh the parametric risk
+      finance two-pager. If it is the Convergence Accelerator window, brief
+      Anuj/PAC and assemble the Nepal vehicle concept.
+
+  - trigger: ["infrastructure", "connectivity", "saric"]
+    likely_actors: "Palladium (SARIC incumbent), ASI (SARIC evaluator), DT Global, IFC/World Bank components"
+    actions: >
+      SARIC2 watch. Position as the community-resilience and climate-proofing
+      technical partner. Contact Palladium and ASI Canberra/Bangkok before
+      the RFT drops, not after.
+
+  - trigger: ["energy access", "renewable energy", "clean energy", "energy transition"]
+    likely_actors: "Palladium (SEALP), EY (P4I), Export Finance Australia (SEAIFF), ASI"
+    actions: >
+      Lead with GRIPS2 Nepal (924 kWp solar + 2 MW/4 MWh BESS, UNIDO A2D).
+      Frame as productive-use energy for livelihoods, not generation alone.
+
+  - trigger: ["water security", "wash", "river", "basin"]
+    likely_actors: "WRI India + McGregor Coxall (SAWASI India legacy), IWMI, Oxford Policy Management (MEL)"
+    actions: >
+      SAWASI successor watch. Position EWS + water security as one offer for
+      the Indo-Gangetic Plain corridor narrative.
+
+  - trigger: ["agriculture", "food security"]
+    likely_actors: "ACIAR (Bihar/West Bengal, eastern Terai programs), Australian universities (UQ, Adelaide)"
+    actions: >
+      Route via research partnership - approach an Australian university lead
+      for ACIAR/AISRF co-bids with PAC as applied-research partner.
+
+  - trigger: ["gedsi", "gender", "disability"]
+    likely_actors: "Abt (Investing in Women), Banyan Global, Cowater"
+    actions: >
+      GEDSI is a scoring gate on every DFAT bid - ensure the GEDSI case
+      studies annex is current before any submission this quarter.
+
+  - trigger: ["grant opportunity", "maitri", "call for proposals"]
+    likely_actors: "Centre for Australia-India Relations (Maitri); check GrantConnect addenda"
+    actions: >
+      Confirm eligibility (Australian operating nexus needed for Maitri).
+      If eligible, decide go/no-go within one week of publication.
