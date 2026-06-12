@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Opportunity Radar</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+         margin: 0; background: #f3f3f3; color: #1a1a1a; }
+  header { background: #ffa600; padding: 18px 24px; }
+  header h1 { margin: 0; font-size: 1.3rem; color: #1a1a1a; }
+  header p { margin: 4px 0 0; font-size: 0.85rem; color: #333; }
+  main { max-width: 980px; margin: 24px auto; padding: 0 16px 60px; }
+  #content { background: #fff; border-radius: 10px; padding: 28px;
+             box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  h1, h2, h3 { color: #2161c2; }
+  #content > h1 { color: #1a1a1a; border-bottom: 3px solid #ffa600;
+                  padding-bottom: 8px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+  th { background: #2161c2; color: #fff; padding: 8px; text-align: left; }
+  td { padding: 8px; border-bottom: 1px solid #e5e5e5; vertical-align: top; }
+  tr.high td:first-child   { border-left: 5px solid #e74c3c; font-weight: 600; }
+  tr.medium td:first-child { border-left: 5px solid #ffa600; }
+  tr.low td:first-child    { border-left: 5px solid #2bb6b7; }
+  a { color: #2161c2; }
+  li input[type=checkbox] { transform: scale(1.2); margin-right: 8px; }
+  .loading { text-align: center; padding: 60px; color: #666; }
+  blockquote { border-left: 4px solid #2bb6b7; margin: 0; padding: 4px 16px;
+               background: #f7fcfc; }
+  @media (max-width: 600px) { #content { padding: 16px; }
+    table { display: block; overflow-x: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Opportunity Radar</h1>
+  <p>Practical Action Asia &middot; Australian funding &amp; procurement intelligence</p>
+</header>
+<main>
+  <div id="content"><div class="loading">Loading latest digest&hellip;</div></div>
+</main>
+<script>
+  fetch('digests/latest.md', {cache: 'no-store'})
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(md => {
+      document.getElementById('content').innerHTML = marked.parse(md);
+      // colour-code table rows by relevance band
+      document.querySelectorAll('tbody tr').forEach(tr => {
+        const t = tr.cells[0] ? tr.cells[0].textContent : '';
+        if (t.includes('HIGH')) tr.classList.add('high');
+        else if (t.includes('MEDIUM')) tr.classList.add('medium');
+        else if (t.includes('LOW')) tr.classList.add('low');
+      });
+    })
+    .catch(() => {
+      document.getElementById('content').innerHTML =
+        '<p><strong>No digest found yet.</strong> Run the radar once from the ' +
+        'Actions tab (Opportunity Radar &rarr; Run workflow), wait a minute, ' +
+        'then refresh this page.</p>';
+    });
+</script>
+</body>
+</html>
