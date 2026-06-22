@@ -264,5 +264,26 @@
   "source": "Palladium - news",
   "first_seen": "2026-06-15",
   "score": 0
+ },
+ "0215ce85ba42713a": {
+  "title": "National Youth OYT",
+  "url": "https://www.tenders.gov.au/Atm/Show/1295dd53-9966-4f3b-8a45-bb9e84a82002",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-22",
+  "score": 0
+ },
+ "cb9afa2be4d2802d": {
+  "title": "UK Minister’s visit to Lafiya Programme Reveals How Supply Systems Underpin Frontline Care",
+  "url": "https://thepalladiumgroup.com/news/UK-Minister-visit-to-Lafiya-Programme-Reveals-How-Supply-Systems-Underpin-Frontline-Care",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-22",
+  "score": 0
+ },
+ "ab88d0465d799ea0": {
+  "title": "Young People and Work: a UK System Under Strain",
+  "url": "https://thepalladiumgroup.com/news/Young-People-and-Work-a-UK-System-Under-Strain",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-22",
+  "score": 0
  }
 }
