@@ -285,5 +285,26 @@
   "source": "Palladium - news",
   "first_seen": "2026-06-22",
   "score": 0
+ },
+ "eaf855f0a7a034b6": {
+  "title": "PROC0018432 - NOTICE",
+  "url": "https://www.tenders.gov.au/Atm/Show/d165303e-ba93-45b3-a08f-7a1b1af86425",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-06-29",
+  "score": 0
+ },
+ "f99d73b5ea54e9d0": {
+  "title": "Europe Was Not Designed for Heat. That Is Now a System Risk",
+  "url": "https://thepalladiumgroup.com/news/Europe-Was-Not-Designed-for-Heat-That-Is-Now-a-System-Risk",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-29",
+  "score": 0
+ },
+ "4ecedec885e5507b": {
+  "title": "From the Frontlines of the UK’s Youth Employment Crisis",
+  "url": "https://thepalladiumgroup.com/news/From-the-Frontlines-of-the-UK-Youth-Employment-Crisis",
+  "source": "Palladium - news",
+  "first_seen": "2026-06-29",
+  "score": 0
  }
 }
