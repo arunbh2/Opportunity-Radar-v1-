@@ -460,5 +460,12 @@
   "source": "Palladium - news",
   "first_seen": "2026-08-10",
   "score": 0
+ },
+ "6a1f5624c0a8cdb7": {
+  "title": "Notice 2 - 25/3151",
+  "url": "https://www.tenders.gov.au/Atm/Show/a3eee7ed-e82d-45e7-b653-c9a23d698697",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-08-17",
+  "score": 0
  }
 }
