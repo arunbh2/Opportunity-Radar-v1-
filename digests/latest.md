@@ -1,4 +1,4 @@
-# Opportunity Radar - 2026-09-28
+# Opportunity Radar - 2026-10-05
 
 New items this run: **0**  |  Sources with errors: 10
 
@@ -27,8 +27,8 @@ _No new scored items this run. Quiet weeks are normal; the manual checklist belo
 - **DFAT - Development Procurement Pipeline**: ReadTimeout: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)
 - **ACIAR - funding and opportunities**: HTTPError: 403 Client Error: Forbidden for url: https://www.aciar.gov.au/opportunities
 - **Australian High Commission India - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://india.highcommission.gov.au/ndli/cooperation.html
-- **Australian Embassy Nepal - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://nepal.embassy.gov.au/kmdu/DAP.html
-- **Australian High Commission Bangladesh - DAP**: HTTPError: 520 Server Error: <none> for url: https://bangladesh.highcommission.gov.au/daca/cooperation.html
+- **Australian Embassy Nepal - DAP**: HTTPError: 520 Server Error: <none> for url: https://nepal.embassy.gov.au/kmdu/DAP.html
+- **Australian High Commission Bangladesh - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://bangladesh.highcommission.gov.au/daca/cooperation.html
 - **Adam Smith International - news/insights**: HTTPError: 403 Client Error: Forbidden for url: https://adamsmithinternational.com/insights/
 - **Abt Global - insights**: HTTPError: 403 Client Error: Forbidden for url: https://www.abtglobal.com/insights
 - **Tetra Tech International Development - news**: SSLError: HTTPSConnectionPool(host='intdev.tetratechasiapacific.com', port=443): Max retries exceeded with url: /category/news/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)')))

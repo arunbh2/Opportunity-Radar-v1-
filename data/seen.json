@@ -572,5 +572,40 @@
   "source": "Palladium - news",
   "first_seen": "2026-09-28",
   "score": 0
+ },
+ "f301b062a572c08c": {
+  "title": "FIN-2026-27-GovCMS",
+  "url": "https://www.tenders.gov.au/Atm/Show/f42c5443-d149-4c47-be81-f623c40d8e36",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-10-05",
+  "score": 0
+ },
+ "9632f41390ae5d59": {
+  "title": "SPI/PNGR/FY2026/01-A",
+  "url": "https://www.tenders.gov.au/Atm/Show/a7ccda2d-9a51-438e-8f94-9c41f7e783c5",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-10-05",
+  "score": 0
+ },
+ "c20e957b55705856": {
+  "title": "Building the Roads Ahead: Palladium Partners with the Transport Department of Jammu and Kashmir",
+  "url": "https://thepalladiumgroup.com/news/Building-the-Roads-Ahead-Palladium-Partners-with-the-Transport-Department-of-Jammu-and-Kashmir",
+  "source": "Palladium - news",
+  "first_seen": "2026-10-05",
+  "score": 0
+ },
+ "ca27caf7569a2132": {
+  "title": "Water is the Real Currency of Resilience",
+  "url": "https://thepalladiumgroup.com/news/Water-is-the-Real-Currency-of-Resilience",
+  "source": "Palladium - news",
+  "first_seen": "2026-10-05",
+  "score": 0
+ },
+ "3f940ef80fc6af50": {
+  "title": "Why Infrastructure Must Be Designed to Evolve",
+  "url": "https://thepalladiumgroup.com/news/Why-Infrastructure-Must-Be-Designed-to-Evolve",
+  "source": "Palladium - news",
+  "first_seen": "2026-10-05",
+  "score": 0
  }
 }
