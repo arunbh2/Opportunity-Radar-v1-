@@ -1,8 +1,17 @@
-# Opportunity Radar - 2026-10-05
+# Opportunity Radar - 2026-10-12
 
-New items this run: **0**  |  Sources with errors: 10
+New items this run: **2**  |  Sources with errors: 10
 
-_No new scored items this run. Quiet weeks are normal; the manual checklist below still applies._
+| Relevance | Opportunity / signal | Source | Matched terms | Link |
+|---|---|---|---|---|
+| MEDIUM (5) | Resilience Starts at Home: How Indonesia and Australia Are Helping Reduce Disaster Risk | Palladium - news | indonesia, disaster risk | [open](https://thepalladiumgroup.com/news/Resilience-Starts-at-Home-How-Indonesia-and-Australia-Are-Helping-Reduce-Disaster-Risk) |
+| LOW (3) | Palladium's Irfan Bakhtiar Awarded Honorary MBE for Strengthening UK-Indonesia Climate and Nature Cooperation | Palladium - news | indonesia | [open](https://thepalladiumgroup.com/news/Palladium-Irfan-Bakhtiar-Awarded-Honorary-MBE) |
+
+## Pre-positioning actions
+
+### Resilience Starts at Home: How Indonesia and Australia Are Helping Reduce Disaster Risk
+- **Likely actors:** DT Global (CRC Support Unit), Palladium, Tetra Tech, ASI; Australian Red Cross and Save the Children Australia on anticipatory action
+- **Do now:** Pull the Nepal flood EWS + Karnali parametric insurance capability note. Check whether the opportunity sits under Climate Resilient Communities - if yes, contact DT Global's CRC Support Unit early. Warm up the ANCP-partner conversation (Oxfam Australia / Save the Children Australia).
 
 ## Manual checklist (login-walled or bot-blocked)
 
@@ -27,7 +36,7 @@ _No new scored items this run. Quiet weeks are normal; the manual checklist belo
 - **DFAT - Development Procurement Pipeline**: ReadTimeout: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)
 - **ACIAR - funding and opportunities**: HTTPError: 403 Client Error: Forbidden for url: https://www.aciar.gov.au/opportunities
 - **Australian High Commission India - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://india.highcommission.gov.au/ndli/cooperation.html
-- **Australian Embassy Nepal - DAP**: HTTPError: 520 Server Error: <none> for url: https://nepal.embassy.gov.au/kmdu/DAP.html
+- **Australian Embassy Nepal - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://nepal.embassy.gov.au/kmdu/DAP.html
 - **Australian High Commission Bangladesh - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://bangladesh.highcommission.gov.au/daca/cooperation.html
 - **Adam Smith International - news/insights**: HTTPError: 403 Client Error: Forbidden for url: https://adamsmithinternational.com/insights/
 - **Abt Global - insights**: HTTPError: 403 Client Error: Forbidden for url: https://www.abtglobal.com/insights

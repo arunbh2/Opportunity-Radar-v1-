@@ -607,5 +607,47 @@
   "source": "Palladium - news",
   "first_seen": "2026-10-05",
   "score": 0
+ },
+ "97ce2ee27200f06e": {
+  "title": "ASCA-RFT-2026-LDTPM",
+  "url": "https://www.tenders.gov.au/Atm/Show/c83b9592-4ff5-4910-ad3a-01a2d6765912",
+  "source": "AusTender - ATM list (DFAT agency filter is set in URL)",
+  "first_seen": "2026-10-12",
+  "score": 0
+ },
+ "bb3671ba29a191d1": {
+  "title": "https://www.scamwatch.gov.au",
+  "url": "https://www.scamwatch.gov.au",
+  "source": "GrantConnect - current grant opportunities",
+  "first_seen": "2026-10-12",
+  "score": 0
+ },
+ "5b00733082674024": {
+  "title": "Resilience Starts at Home: How Indonesia and Australia Are Helping Reduce Disaster Risk",
+  "url": "https://thepalladiumgroup.com/news/Resilience-Starts-at-Home-How-Indonesia-and-Australia-Are-Helping-Reduce-Disaster-Risk",
+  "source": "Palladium - news",
+  "first_seen": "2026-10-12",
+  "score": 5
+ },
+ "e22aed4451180a69": {
+  "title": "Partnerships for a New Era of Global Health at UNGA 81",
+  "url": "https://thepalladiumgroup.com/news/Partnerships-for-a-New-Era-of-Global-Health-at-UNGA-81",
+  "source": "Palladium - news",
+  "first_seen": "2026-10-12",
+  "score": 0
+ },
+ "609d1f5c8ce1e06f": {
+  "title": "Palladium's Irfan Bakhtiar Awarded Honorary MBE for Strengthening UK-Indonesia Climate and Nature Cooperation",
+  "url": "https://thepalladiumgroup.com/news/Palladium-Irfan-Bakhtiar-Awarded-Honorary-MBE",
+  "source": "Palladium - news",
+  "first_seen": "2026-10-12",
+  "score": 3
+ },
+ "3f63cd6148c7e246": {
+  "title": "Project Management Isn't an Overhead - It's How Expertise Delivers Impact",
+  "url": "https://thepalladiumgroup.com/news/Project-Management-Isn't-an-Overhead-Its-How-Expertise-Delivers-Impact",
+  "source": "Palladium - news",
+  "first_seen": "2026-10-12",
+  "score": 0
  }
 }
