@@ -1,17 +1,8 @@
-# Opportunity Radar - 2026-10-12
+# Opportunity Radar - 2026-10-19
 
-New items this run: **2**  |  Sources with errors: 10
+New items this run: **0**  |  Sources with errors: 10
 
-| Relevance | Opportunity / signal | Source | Matched terms | Link |
-|---|---|---|---|---|
-| MEDIUM (5) | Resilience Starts at Home: How Indonesia and Australia Are Helping Reduce Disaster Risk | Palladium - news | indonesia, disaster risk | [open](https://thepalladiumgroup.com/news/Resilience-Starts-at-Home-How-Indonesia-and-Australia-Are-Helping-Reduce-Disaster-Risk) |
-| LOW (3) | Palladium's Irfan Bakhtiar Awarded Honorary MBE for Strengthening UK-Indonesia Climate and Nature Cooperation | Palladium - news | indonesia | [open](https://thepalladiumgroup.com/news/Palladium-Irfan-Bakhtiar-Awarded-Honorary-MBE) |
-
-## Pre-positioning actions
-
-### Resilience Starts at Home: How Indonesia and Australia Are Helping Reduce Disaster Risk
-- **Likely actors:** DT Global (CRC Support Unit), Palladium, Tetra Tech, ASI; Australian Red Cross and Save the Children Australia on anticipatory action
-- **Do now:** Pull the Nepal flood EWS + Karnali parametric insurance capability note. Check whether the opportunity sits under Climate Resilient Communities - if yes, contact DT Global's CRC Support Unit early. Warm up the ANCP-partner conversation (Oxfam Australia / Save the Children Australia).
+_No new scored items this run. Quiet weeks are normal; the manual checklist below still applies._
 
 ## Manual checklist (login-walled or bot-blocked)
 
@@ -22,7 +13,7 @@ New items this run: **2**  |  Sources with errors: 10
 - [ ] [Australian High Commission India - DAP](https://india.highcommission.gov.au/ndli/cooperation.html)
 - [ ] [Australian Embassy Nepal - DAP](https://nepal.embassy.gov.au/kmdu/DAP.html)
 - [ ] [Australian High Commission Bangladesh - DAP](https://bangladesh.highcommission.gov.au/daca/cooperation.html)
-- [ ] [Adam Smith International - news/insights](https://adamsmithinternational.com/insights/)
+- [ ] [DT Global - news](https://dt-global.com/news/)
 - [ ] [Abt Global - insights](https://www.abtglobal.com/insights)
 - [ ] [Tetra Tech International Development - news](https://intdev.tetratechasiapacific.com/category/news/)
 - [ ] [AusConnect (sub-contracting portal - login required)](https://ausconnect.dfat.gov.au) - Log in weekly. Search: climate, DRR, resilience, Nepal, Bangladesh, Mekong.
@@ -37,8 +28,8 @@ New items this run: **2**  |  Sources with errors: 10
 - **ACIAR - funding and opportunities**: HTTPError: 403 Client Error: Forbidden for url: https://www.aciar.gov.au/opportunities
 - **Australian High Commission India - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://india.highcommission.gov.au/ndli/cooperation.html
 - **Australian Embassy Nepal - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://nepal.embassy.gov.au/kmdu/DAP.html
-- **Australian High Commission Bangladesh - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://bangladesh.highcommission.gov.au/daca/cooperation.html
-- **Adam Smith International - news/insights**: HTTPError: 403 Client Error: Forbidden for url: https://adamsmithinternational.com/insights/
+- **Australian High Commission Bangladesh - DAP**: HTTPError: 520 Server Error: <none> for url: https://bangladesh.highcommission.gov.au/daca/cooperation.html
+- **DT Global - news**: HTTPError: 404 Client Error: Not Found for url: https://dt-global.com/news/
 - **Abt Global - insights**: HTTPError: 403 Client Error: Forbidden for url: https://www.abtglobal.com/insights
 - **Tetra Tech International Development - news**: SSLError: HTTPSConnectionPool(host='intdev.tetratechasiapacific.com', port=443): Max retries exceeded with url: /category/news/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)')))
 
