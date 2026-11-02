@@ -1,8 +1,16 @@
-# Opportunity Radar - 2026-10-26
+# Opportunity Radar - 2026-11-02
 
-New items this run: **0**  |  Sources with errors: 10
+New items this run: **1**  |  Sources with errors: 10
 
-_No new scored items this run. Quiet weeks are normal; the manual checklist below still applies._
+| Relevance | Opportunity / signal | Source | Matched terms | Link |
+|---|---|---|---|---|
+| MEDIUM (5) | Beyond the Monsoon: Building Flood Resilience into India’s Urban Growth | Palladium - news | india, flood | [open](https://thepalladiumgroup.com/news/beyond-the-monsoon-building-flood-resilience-into-indias-urban-growth) |
+
+## Pre-positioning actions
+
+### Beyond the Monsoon: Building Flood Resilience into India’s Urban Growth
+- **Likely actors:** DT Global (CRC Support Unit), Palladium, Tetra Tech, ASI; Australian Red Cross and Save the Children Australia on anticipatory action
+- **Do now:** Pull the Nepal flood EWS + Karnali parametric insurance capability note. Check whether the opportunity sits under Climate Resilient Communities - if yes, contact DT Global's CRC Support Unit early. Warm up the ANCP-partner conversation (Oxfam Australia / Save the Children Australia).
 
 ## Manual checklist (login-walled or bot-blocked)
 
@@ -26,8 +34,8 @@ _No new scored items this run. Quiet weeks are normal; the manual checklist belo
 - **DFAT - Business notifications**: ReadTimeout: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)
 - **DFAT - Development Procurement Pipeline**: ReadTimeout: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)
 - **ACIAR - funding and opportunities**: HTTPError: 403 Client Error: Forbidden for url: https://www.aciar.gov.au/opportunities
-- **Australian High Commission India - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://india.highcommission.gov.au/ndli/cooperation.html
-- **Australian Embassy Nepal - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://nepal.embassy.gov.au/kmdu/DAP.html
+- **Australian High Commission India - DAP**: HTTPError: 520 Server Error: <none> for url: https://india.highcommission.gov.au/ndli/cooperation.html
+- **Australian Embassy Nepal - DAP**: HTTPError: 520 Server Error: <none> for url: https://nepal.embassy.gov.au/kmdu/DAP.html
 - **Australian High Commission Bangladesh - DAP**: HTTPError: 500 Server Error: Internal Server Error for url: https://bangladesh.highcommission.gov.au/daca/cooperation.html
 - **DT Global - news**: HTTPError: 404 Client Error: Not Found for url: https://dt-global.com/news/
 - **Abt Global - insights**: HTTPError: 403 Client Error: Forbidden for url: https://www.abtglobal.com/insights
